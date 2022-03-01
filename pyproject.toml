@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "temptalib"
+version = "0.1.0"
+description = ""
+authors = ["Josh Teng <josh@dev.server>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ccxt = "^1.74.49"
+requests = "^2.27.1"
+pytz = "^2021.3"
+pandas = "^1.4.1"
+TA-Lib = "^0.4.24"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
