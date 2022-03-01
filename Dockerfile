@@ -16,7 +16,7 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
-CMD ["python3", "start.py"]
+# CMD ["python3", "start.py"]
 
 # docker build -t joshteng/m1test .
 # docker push joshteng/m1test
